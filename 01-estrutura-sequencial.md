@@ -1,11 +1,5 @@
 # Estrutura Sequencial
 
-> Primeiro contato com algoritmos utilizando VisualG.
-
----
-
-## Objetivo
-
 A estrutura sequencial representa a forma mais simples de construir um algoritmo.
 
 Todos os comandos são executados **na ordem em que aparecem**, de cima para baixo.
@@ -20,7 +14,7 @@ Caso a ordem seja alterada, o algoritmo pode produzir resultados incorretos.
 
 ---
 
-# Conteúdo
+## Conteúdo
 
 - Expressões aritméticas
 - Variáveis
@@ -32,17 +26,17 @@ Caso a ordem seja alterada, o algoritmo pode produzir resultados incorretos.
 
 ---
 
-# Expressões aritméticas
+## Expressões aritméticas
 
 Uma expressão aritmética é um conjunto de valores e operadores cujo resultado é um valor numérico.
 
-Exemplo:
+**Exemplo:**
 
 ```text
 4 + 5
 ```
 
-Resultado:
+**Resultado:**
 
 ```text
 9
@@ -53,7 +47,7 @@ Resultado:
 ## Operadores do VisualG
 
 | Operador | Significado |
-|----------|-------------|
+|-----------|------------|
 | + | Adição |
 | - | Subtração |
 | * | Multiplicação |
@@ -70,21 +64,12 @@ Resultado:
 2. Multiplicação, divisão, divisão inteira e resto (`*`, `/`, `\`, `%`)
 3. Soma e subtração (`+`, `-`)
 
-Exemplos:
+**Exemplos:**
 
 ```text
 2 * 6 / 3 = 4
-```
-
-```text
 3 + 2 * 4 = 11
-```
-
-```text
 (3 + 2) * 4 = 20
-```
-
-```text
 2 * 3 ^ 4 = 162
 ```
 
@@ -94,11 +79,10 @@ Exemplos:
 
 Retorna o resto da divisão inteira.
 
-```text
-14 % 3 = 2
-```
+**Exemplos:**
 
 ```text
+14 % 3 = 2
 19 % 5 = 4
 ```
 
@@ -110,7 +94,7 @@ Retorna o resto da divisão inteira.
 
 ---
 
-# Variáveis
+## Variáveis
 
 Uma variável é um espaço reservado na memória para armazenar dados durante a execução do programa.
 
@@ -125,13 +109,13 @@ Cada variável possui:
 
 ## Declaração
 
-Sintaxe:
+**Sintaxe:**
 
 ```text
 nome : tipo
 ```
 
-Exemplos:
+**Exemplos:**
 
 ```text
 idade : inteiro
@@ -141,10 +125,10 @@ nome : caractere
 
 ---
 
-# Tipos básicos
+## Tipos básicos
 
 | Tipo | Utilização |
-|------|------------|
+|--------|----------|
 | inteiro | números inteiros |
 | real | números com casas decimais |
 | caractere | textos |
@@ -152,37 +136,25 @@ nome : caractere
 
 ---
 
-# Boas práticas para nomes de variáveis
+## Boas práticas para nomes de variáveis
 
-Evite:
+**Evite:**
 
 ```text
 5minutos
-```
-
-```text
 salário
-```
-
-```text
 salário do funcionário
 ```
 
-Prefira:
+**Prefira:**
 
 ```text
-_5minutos
-```
-
-```text
+tempoEmMinutos
 salario
-```
-
-```text
 salarioDoFuncionario
 ```
 
-Regras:
+**Regras:**
 
 - não iniciar com números;
 - não utilizar espaços;
@@ -192,21 +164,21 @@ Regras:
 
 ---
 
-# As três operações básicas da programação
+## As três operações básicas da programação
 
-Todo algoritmo executa três etapas fundamentais.
+Todo algoritmo executa três etapas fundamentais:
 
 ```text
 Entrada
-    ↓
+   ↓
 Processamento
-    ↓
+   ↓
 Saída
 ```
 
 ---
 
-# Entrada de dados
+## Entrada de dados
 
 Consiste em receber informações do usuário.
 
@@ -216,23 +188,22 @@ No VisualG utiliza-se:
 leia()
 ```
 
-Exemplo:
+**Exemplo:**
 
 ```text
 idade : inteiro
-
 leia(idade)
 ```
 
 ---
 
-# Processamento de dados
+## Processamento de dados
 
-É onde os cálculos acontecem.
+É nesta etapa que os cálculos e transformações de dados são realizados.
 
 O principal comando é a atribuição.
 
-Sintaxe:
+**Sintaxe:**
 
 ```text
 variavel <- expressao
@@ -242,7 +213,7 @@ Lê-se:
 
 > variável recebe expressão
 
-Exemplo:
+**Exemplo:**
 
 ```text
 media <- (nota1 + nota2) / 2
@@ -255,23 +226,23 @@ O processo ocorre em duas etapas:
 
 ---
 
-# Saída de dados
+## Saída de dados
 
 Apresenta informações ao usuário.
 
-Sem quebra de linha:
+**Sem quebra de linha:**
 
 ```text
 escreva("Bom dia!")
 ```
 
-Com quebra de linha:
+**Com quebra de linha:**
 
 ```text
 escreval("Bom dia!")
 ```
 
-Também é possível escrever várias informações na mesma linha.
+Também é possível exibir múltiplas informações em uma única linha.
 
 ```text
 escreval("Nome: ", nome)
@@ -279,17 +250,17 @@ escreval("Nome: ", nome)
 
 ---
 
-# Formatação de números
+## Formatação de números
 
 É possível controlar a quantidade de espaços e casas decimais.
 
-Exemplo:
+**Exemplo:**
 
 ```text
 escreval(preco:8:2)
 ```
 
-Resultado:
+**Resultado:**
 
 ```text
 2100.50
@@ -297,14 +268,14 @@ Resultado:
 
 ---
 
-# Exemplos de atribuição
+## Exemplos de atribuição
 
 ```text
 x <- 5
 y <- 2 * x
 ```
 
-Resultado:
+**Resultado:**
 
 ```text
 x = 5
@@ -317,13 +288,13 @@ y = 10
 
 Quando o resultado será armazenado em uma variável inteira, deve-se utilizar a divisão inteira.
 
-Errado:
+**Errado:**
 
 ```text
 resultado <- a / b
 ```
 
-Correto:
+**Correto:**
 
 ```text
 resultado <- a \ b
@@ -341,68 +312,61 @@ b <- Int(a)
 
 ---
 
-# Leitura de dados
+## Leitura de dados
 
-Exemplo completo:
+### Exemplo completo
 
 ```text
 Algoritmo "teste_entrada"
 
 Var
-
-idade : inteiro
-salario : real
-nome : caractere
+    idade : inteiro
+    salario : real
+    nome : caractere
 
 Inicio
 
-escreva("Nome: ")
-leia(nome)
+    escreva("Nome: ")
+    leia(nome)
 
-escreva("Idade: ")
-leia(idade)
+    escreva("Idade: ")
+    leia(idade)
 
-escreva("Salário: ")
-leia(salario)
+    escreva("Salário: ")
+    leia(salario)
 
-escreval()
-escreval("Nome = ", nome)
-escreval("Idade = ", idade)
-escreval("Salário = ", salario:8:2)
+    escreval()
+    escreval("Nome = ", nome)
+    escreval("Idade = ", idade)
+    escreval("Salário = ", salario:8:2)
 
 Fimalgoritmo
 ```
 
 ---
 
-# Funções matemáticas
+## Funções matemáticas
 
 O VisualG disponibiliza algumas funções prontas.
 
 | Função | Descrição |
-|---------|-----------|
+|---------|------------|
 | `RaizQ(x)` | raiz quadrada |
 | `Exp(x,y)` | potência |
 | `Pi` | constante π |
 | `Abs(x)` | valor absoluto |
 
-Exemplos:
+**Exemplos:**
 
 ```text
 delta <- Exp(b,2) - 4 * a * c
-```
-
-```text
 raiz <- RaizQ(delta)
-```
-
-```text
 valor <- Abs(-7)
 ```
 
 ---
 
-# Resumo
+## Resumo
 
 Ao final deste capítulo, os principais conceitos estudados foram:
 
