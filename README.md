@@ -30,15 +30,32 @@ Por esse motivo, os exercícios são desenvolvidos inicialmente em **VisualG**, 
 ## Estrutura do repositório
 
 ```text
-algoritmos-e-logica-de-programacao/
+algoritmos-e-logica/
 │
 ├── README.md
-├── 01-estrutura-sequencial.md
-├── 02-estrutura-condicional.md
-├── 03-estrutura-repetitiva.md
+│
+├── 01-estrutura-sequencial/
+│   ├── README.md
+│   └── exercicios/
+│
+├── 02-estrutura-condicional/
+│   ├── README.md
+│   └── exercicios/
+│
+├── 03-estrutura-repetitiva/
+│   ├── README.md
+│   └── exercicios/
+│
 ├── 04-vetores/
+│   ├── README.md
+│   └── exercicios/
+│
 └── 05-matrizes/
+    ├── README.md
+    └── exercicios/
 ```
+
+---
 
 ### Conteúdo
 
