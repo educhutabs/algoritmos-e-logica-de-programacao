@@ -1,14 +1,10 @@
 # Algoritmos e Lógica de Programação
 
-> Repositório dedicado aos estudos de algoritmos, lógica de programação e resolução de problemas utilizando **VisualG**, como base para a formação em desenvolvimento **Backend com C# e .NET**.
-
-## Sobre
-
 Este repositório documenta minha evolução no estudo de **algoritmos e lógica de programação**, seguindo o curso **Algoritmos e Lógica de Programação**, do professor **Nelio Alves** (Udemy).
 
-O objetivo não é apenas concluir exercícios, mas construir uma base sólida de raciocínio lógico antes de avançar para linguagens de programação e tecnologias do ecossistema **.NET**.
+O objetivo não é apenas concluir exercícios, mas também construir uma base sólida de raciocínio lógico antes de avançar para linguagens de programação e tecnologias do ecossistema .NET.
 
-Acredito que um bom desenvolvedor backend deve dominar conceitos fundamentais como:
+Acredito que um bom desenvolvedor Backend deve dominar conceitos fundamentais como:
 
 * abstração de problemas;
 * decomposição em etapas menores;
@@ -50,7 +46,7 @@ algoritmos-e-logica-de-programacao/
 | ------------------------------ | ------------------------------------------------------------------------------------------ |
 | **01 - Estrutura Sequencial**  | Entrada, processamento, saída de dados, variáveis, operadores e primeiros algoritmos.      |
 | **02 - Estrutura Condicional** | Tomada de decisão utilizando estruturas `SE`, `SENÃO` e operadores lógicos.                |
-| **03 - Estrutura Repetitiva**  | Laços de repetição (`ENQUANTO`, `PARA` e `REPITA`) para automatização de processos.        |
+| **03 - Estrutura Repetitiva**  | Laços de repetição (ENQUANTO, PARA e REPITA) voltados à automatização de processos.        |
 | **04 - Vetores**               | Manipulação de coleções unidimensionais, percursos e algoritmos clássicos.                 |
 | **05 - Matrizes**              | Estruturas bidimensionais, acesso por índices e resolução de problemas envolvendo tabelas. |
 
@@ -74,7 +70,7 @@ Cada módulo segue uma abordagem prática:
 4. revisão periódica dos conteúdos;
 5. refatoração das soluções sempre que possível.
 
-O foco é compreender **o porquê** de cada algoritmo, e não apenas produzir uma resposta correta.
+O foco é compreender o porquê de cada algoritmo, e não apenas produzir respostas corretas.
 
 ---
 
@@ -82,6 +78,6 @@ O foco é compreender **o porquê** de cada algoritmo, e não apenas produzir um
 
 Meu objetivo é construir uma carreira como **Desenvolvedor Backend**, utilizando **C#** e **.NET**, desenvolvendo aplicações robustas, escaláveis e de fácil manutenção.
 
-Entendo que dominar algoritmos e lógica é um investimento de longo prazo, pois esses conhecimentos permanecem relevantes independentemente da linguagem ou framework utilizado.
+Entendo que dominar algoritmos e lógica representa um investimento de longo prazo, pois esses conhecimentos permanecem relevantes independentemente da linguagem ou do framework utilizados.
 
 Este repositório registra essa etapa da minha formação e servirá como referência para acompanhar minha evolução ao longo da jornada.
