@@ -1,36 +1,47 @@
 # Algoritmos e Lógica de Programação
 
-Este repositório documenta minha evolução no estudo de **algoritmos e lógica de programação**, seguindo o curso **Algoritmos e Lógica de Programação**, do professor **Nelio Alves** (Udemy).
-
-O objetivo não é apenas concluir exercícios, mas também construir uma base sólida de raciocínio lógico antes de avançar para linguagens de programação e tecnologias do ecossistema .NET.
-
-Acredito que um bom desenvolvedor Backend deve dominar conceitos fundamentais como:
-
-* abstração de problemas;
-* decomposição em etapas menores;
-* estruturas de controle;
-* manipulação de dados;
-* pensamento algorítmico;
-* escrita de código legível e previsível.
-
-Por esse motivo, os exercícios são desenvolvidos inicialmente em **VisualG**, permitindo foco total na lógica antes da sintaxe de uma linguagem específica.
+> Repositório dedicado ao estudo de algoritmos, lógica de programação e resolução de problemas utilizando **VisualG**, como etapa fundamental para a formação em **Desenvolvimento Back-end com C# e .NET**.
 
 ---
 
-## Objetivos
+# Sobre o projeto
 
-* Desenvolver raciocínio lógico consistente.
-* Aprender a modelar soluções antes de implementá-las.
-* Criar o hábito de resolver problemas de forma estruturada.
-* Construir a base necessária para estudar **C#** e **.NET**.
-* Registrar a evolução dos estudos de maneira organizada.
+Este repositório documenta minha jornada de aprendizado em **Algoritmos e Lógica de Programação**, utilizando como base o curso ministrado pelo professor **Nélio Alves**.
+
+O objetivo deste projeto não é apenas armazenar exercícios resolvidos, mas construir uma base sólida dos fundamentos da programação antes da transição para linguagens de programação, estruturas de dados, orientação a objetos e tecnologias da plataforma **.NET**.
+
+Ao longo dos estudos, cada conceito é documentado de forma organizada, permitindo acompanhar a evolução do aprendizado e consolidar o conhecimento por meio da prática.
 
 ---
 
-## Estrutura do repositório
+# Objetivos
+
+Este repositório possui os seguintes objetivos:
+
+* desenvolver o raciocínio lógico para resolução de problemas;
+* compreender os fundamentos da programação antes do estudo de linguagens específicas;
+* construir uma base sólida para o aprendizado de C# e da plataforma .NET;
+* documentar a evolução dos estudos de forma organizada;
+* registrar soluções para os exercícios propostos durante o curso;
+* criar um material de consulta para futuras revisões.
+
+---
+
+# Público-alvo
+
+Este material destina-se principalmente a:
+
+* estudantes iniciando na área de desenvolvimento de software;
+* pessoas estudando algoritmos utilizando VisualG;
+* desenvolvedores que desejam revisar fundamentos da programação;
+* futuros desenvolvedores C# e .NET.
+
+---
+
+# Organização do repositório
 
 ```text
-algoritmos-e-logica-de-programacao/
+algoritmos-e-logica/
 │
 ├── README.md
 │
@@ -42,7 +53,7 @@ algoritmos-e-logica-de-programacao/
 │   ├── README.md
 │   └── exercicios/
 │
-├── 03-estrutura-repetitiva/
+├── 03-estruturas-repeticao/
 │   ├── README.md
 │   └── exercicios/
 │
@@ -57,44 +68,64 @@ algoritmos-e-logica-de-programacao/
 
 ---
 
-### Conteúdo
+# Estrutura dos módulos
 
-| Módulo                         | Descrição                                                                                  |
-| ------------------------------ | ------------------------------------------------------------------------------------------ |
-| **01 - Estrutura Sequencial**  | Entrada, processamento, saída de dados, variáveis, operadores e primeiros algoritmos.      |
-| **02 - Estrutura Condicional** | Tomada de decisão utilizando estruturas `SE`, `SENÃO` e operadores lógicos.                |
-| **03 - Estrutura Repetitiva**  | Laços de repetição (ENQUANTO, PARA e REPITA) voltados à automatização de processos.        |
-| **04 - Vetores**               | Manipulação de coleções unidimensionais, percursos e algoritmos clássicos.                 |
-| **05 - Matrizes**              | Estruturas bidimensionais, acesso por índices e resolução de problemas envolvendo tabelas. |
+Cada módulo é composto por dois elementos principais:
+
+* um arquivo **README.md**, contendo a fundamentação teórica do assunto estudado;
+* uma pasta **exercicios**, contendo as implementações desenvolvidas durante o curso.
+
+Essa organização permite separar claramente a documentação conceitual da prática de programação.
 
 ---
 
-## Tecnologias
+# Conteúdo estudado
+
+| Módulo                           | Conteúdo                                                                                                                      |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **01 — Estrutura Sequencial**    | Algoritmos, variáveis, tipos de dados, operadores, entrada, processamento e saída de dados, atribuição e funções matemáticas. |
+| **02 — Estrutura Condicional**   | Expressões relacionais, operadores lógicos, estruturas condicionais e controle do fluxo de execução.                          |
+| **03 — Estruturas de Repetição** | Laços de repetição (`enquanto`, `para` e `repita-até`) e controle de iterações.                                               |
+| **04 — Vetores**                 | Estruturas de dados unidimensionais, indexação e manipulação de coleções homogêneas.                                          |
+| **05 — Matrizes**                | Estruturas de dados bidimensionais, acesso por índices e manipulação de linhas e colunas.                                     |
+
+---
+
+# Tecnologias utilizadas
+
+Durante esta etapa da formação são utilizadas as seguintes ferramentas:
 
 * VisualG
 * Pseudocódigo
 * Git
+* GitHub
 
 ---
 
-## Metodologia de estudo
+# Metodologia de estudo
 
-Cada módulo segue uma abordagem prática:
+Os estudos seguem uma abordagem incremental.
 
-1. estudo da teoria;
-2. resolução dos exercícios propostos;
-3. documentação dos conceitos aprendidos;
-4. revisão periódica dos conteúdos;
-5. refatoração das soluções sempre que possível.
+Cada novo conceito é desenvolvido em três etapas:
 
-O foco é compreender o porquê de cada algoritmo, e não apenas produzir respostas corretas.
+1. compreensão da teoria;
+2. resolução de exercícios;
+3. documentação dos conceitos aprendidos.
+
+Essa metodologia busca fortalecer o entendimento dos fundamentos antes do avanço para tecnologias mais complexas.
 
 ---
 
-## Objetivo profissional
+# Objetivo profissional
 
-Meu objetivo é construir uma carreira como **Desenvolvedor Backend**, utilizando **C#** e **.NET**, desenvolvendo aplicações robustas, escaláveis e de fácil manutenção.
+Este repositório representa a primeira etapa da minha formação como **Desenvolvedor de Software Back-end**.
 
-Entendo que dominar algoritmos e lógica representa um investimento de longo prazo, pois esses conhecimentos permanecem relevantes independentemente da linguagem ou do framework utilizados.
+O objetivo é construir uma base técnica consistente em algoritmos, lógica de programação e resolução de problemas antes da especialização em **C#**, **.NET** e desenvolvimento de aplicações escaláveis, legíveis e de fácil manutenção.
 
-Este repositório registra essa etapa da minha formação e servirá como referência para acompanhar minha evolução ao longo da jornada.
+Acredito que dominar os fundamentos da computação é um requisito indispensável para produzir software de qualidade, independentemente da linguagem ou tecnologia utilizada.
+
+---
+
+# Licença
+
+Este repositório possui finalidade exclusivamente educacional e foi desenvolvido como parte da minha formação em desenvolvimento de software.
