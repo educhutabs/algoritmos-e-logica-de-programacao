@@ -30,7 +30,7 @@ Por esse motivo, os exercícios são desenvolvidos inicialmente em **VisualG**, 
 ## Estrutura do repositório
 
 ```text
-algoritmos-e-logica/
+algoritmos-e-logica-de-programacao/
 │
 ├── README.md
 │
