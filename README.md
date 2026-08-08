@@ -27,17 +27,6 @@ Este repositório possui os seguintes objetivos:
 
 ---
 
-# Público-alvo
-
-Este material destina-se principalmente a:
-
-* estudantes iniciando na área de desenvolvimento de software;
-* pessoas estudando algoritmos utilizando VisualG;
-* desenvolvedores que desejam revisar fundamentos da programação;
-* futuros desenvolvedores C# e .NET.
-
----
-
 # Organização do repositório
 
 ```text
